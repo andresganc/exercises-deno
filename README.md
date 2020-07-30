@@ -147,16 +147,18 @@
 ## Instalar extension Deno Visaul Studio Code - ( Deno - Deno support for VSCode )
 
     Visual Studio Code Deno extension
-    Adds Deno support for VS Code using the TypeScript Deno language service plugin.
 
-    Usage
-    This extension works using VS Code's built-in version of TypeScript. You do not need to configure the plugin in your tsconfig.json if you are using VS Code's version of TypeScript.
 
-    If you are using VS Code 1.40 or older and are using a workspace version of typescript, you must currently configure the TS Server plugin manually by following these instructions
+## Caracteristicas nuevas de Deno frente a Nodejs
 
-    Preview
-    without this plugin
-    If we write from "./hello.ts", the editor(VS Code) will prompt for a tilde error. Because the default TypeScript project does not need to write the extension .ts.
+### WebAssembly Binaries Supported
+
+    - Soporte para binarios de WeAssembly ( En trabajo )
+
+### Deno no tiene package Json incluido
+
+    - Hay que incluir la importacion del JSON en el momento
+    
 
 
 
