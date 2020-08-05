@@ -1,5 +1,70 @@
-# CURSO DENO
+
+# DENO - CURSO NC DE DENO
+
     - Curso NC de Deno - Curso del RunTime de JavaScript & TypeScript Deno
+
+<br>
+
+
+## TABLA DE CONTENIDO
+
+
+
+
+## Instalacion
+
+    Shell (Mac, Linux):
+
+    curl -fsSL https://deno.land/x/install/install.sh | sh
+    PowerShell (Windows):
+
+    iwr https://deno.land/x/install/install.ps1 -useb | iex
+    Homebrew (Mac):
+
+    brew install deno
+    Chocolatey (Windows):
+
+    choco install deno
+    Scoop (Windows):
+
+    scoop install deno
+    Build and install from source using Cargo
+
+    cargo install deno
+    See deno_install for more installation options.
+
+
+## Configurar el bash ( Debian )
+
+    - Por consola abrir el archivo .bashrc
+    
+    $ sudo vim .bashrc
+
+    - Agregar estas 2 lineas de texto
+
+    export DENO_INSTALL="/home/andres/.deno"
+    export PATH="$DENO_INSTALL/bin:$PATH"
+
+    - Reiniciar o Cerrar sesion
+
+    - Comprobar la version de Deno
+
+    deno --version:q
+
+
+
+## Ejecutar archivos JS o TS con Deno
+
+    - Ya no es necesario configurar archivos especiales en el proyecto para usar TypeScript como cuando usamos NodeJS
+
+    deno run hola-mundo.js
+
+    deno run hola-mundo.ts
+
+
+## Instalar extension Deno Visaul Studio Code - ( Deno - Deno support for VSCode )
+
+    Visual Studio Code Deno extension
 
 
 ## Que es Deno
@@ -93,60 +158,7 @@
 
 
 
-## Instalacion
 
-    Shell (Mac, Linux):
-
-    curl -fsSL https://deno.land/x/install/install.sh | sh
-    PowerShell (Windows):
-
-    iwr https://deno.land/x/install/install.ps1 -useb | iex
-    Homebrew (Mac):
-
-    brew install deno
-    Chocolatey (Windows):
-
-    choco install deno
-    Scoop (Windows):
-
-    scoop install deno
-    Build and install from source using Cargo
-
-    cargo install deno
-    See deno_install for more installation options.
-
-
-## Configurar el bash ( Debian )
-
-    - Por consola abrir el archivo .bashrc
-    
-    $ sudo vim .bashrc
-
-    - Agregar estas 2 lineas de texto
-
-    export DENO_INSTALL="/home/andres/.deno"
-    export PATH="$DENO_INSTALL/bin:$PATH"
-
-    - Reiniciar o Cerrar sesion
-
-    - Comprobar la version de Deno
-
-    deno --version:q
-
-
-
-## Ejecutar archivos JS o TS con Deno
-
-    - Ya no es necesario configurar archivos especiales en el proyecto para usar TypeScript como cuando usamos NodeJS
-
-    deno run hola-mundo.js
-
-    deno run hola-mundo.ts
-
-
-## Instalar extension Deno Visaul Studio Code - ( Deno - Deno support for VSCode )
-
-    Visual Studio Code Deno extension
 
 
 ## Caracteristicas nuevas de Deno frente a Nodejs
