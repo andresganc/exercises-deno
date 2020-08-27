@@ -49,7 +49,7 @@
 
     - Comprobar la version de Deno
 
-    deno --version:q
+    deno --version
 
 
 
