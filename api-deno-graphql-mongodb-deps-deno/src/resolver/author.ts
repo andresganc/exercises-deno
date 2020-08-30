@@ -1,4 +1,4 @@
-import { db } from "../config/db";
+import { db } from "../config/db.ts";
 let author =  db.getDatabase().collection("author");
 let post =  db.getDatabase().collection("post");
 

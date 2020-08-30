@@ -1,5 +1,6 @@
-export * from './user';
-import { UserResolvers } from "./user";
-import { AuthorResolvers } from "./author";
+export * from './user.ts';
+import { UserResolvers } from "./user.ts";
+//import { AuthorResolvers } from "./author.ts";
 
-export const resolvers = [ UserResolvers, AuthorResolvers ];
+//export const resolvers = [ UserResolvers, AuthorResolvers ];
+export const resolvers = [ UserResolvers ];

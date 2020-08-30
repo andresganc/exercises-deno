@@ -1,5 +1,5 @@
-import { GraphQLScalarType } from '../config/deps';
-import { Kind } from '../config/deps';
+import { GraphQLScalarType } from '../config/deps.ts';
+import { Kind } from '../config/deps.ts';
 
 const resolverMap = {
   Date: new GraphQLScalarType({

@@ -1,7 +1,7 @@
-import { Application } from "./config/deps";
-import { applyGraphQL } from "./config/deps";
-import { Schema } from "./schema/index";
-import { resolvers } from "./resolver/index";
+import { Application } from "./config/deps.ts";
+import { applyGraphQL } from "./config/deps.ts";
+import { Schema } from "./schema/index.ts";
+import { resolvers } from "./resolver/index.ts";
 
 export class App {
   public app: Application;

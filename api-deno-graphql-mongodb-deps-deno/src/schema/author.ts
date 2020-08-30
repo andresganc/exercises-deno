@@ -1,4 +1,4 @@
-import { gql } from "../config/deps";
+import { gql } from "../config/deps.ts";
 
 export const AuthorTypes = (gql as any)`
 
