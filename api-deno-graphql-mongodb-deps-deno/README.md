@@ -19,7 +19,7 @@ Deno with GraphQL Using MongoDB
 [Deno Installation](https://deno.land/#installation)
 
 ### Start app
-`denon run --allow-net --allow-env  --allow-write --allow-read --allow-plugin  --unstable  server.ts `
+`deno run --allow-net --allow-env  --allow-write --allow-read --allow-plugin  --unstable  server.ts `
 
 ## Stay in touch
 
