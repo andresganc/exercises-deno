@@ -14,10 +14,9 @@
 ## Instalacion
 
     Shell (Mac, Linux):
-
     curl -fsSL https://deno.land/x/install/install.sh | sh
-    PowerShell (Windows):
 
+    PowerShell (Windows):
     iwr https://deno.land/x/install/install.ps1 -useb | iex
     Homebrew (Mac):
 
