@@ -1,76 +1,32 @@
 
-# DENO - CURSO NC DE DENO
+# [<img src="./readme/img/deno-portada.jpeg" width="600" />](https://deno.land/)
+
+<br>
+
+# [<img src="./readme/img/logo-nc.png" width="30"/>](https://newsoftcomputer.com) CURSO NC DE DENO
 
     - Curso NC de Deno - Curso del RunTime de JavaScript & TypeScript Deno
 
 <br>
 
 
-## TABLA DE CONTENIDO
+### TABLA DE CONTENIDO
+
+- [Que es Deno](#Que-es-Deno)
+- [Instalacion](#Instalacion)
+
+
+<br><br>
 
 
 
+<img src='readme/img/deno-logo.png' width="60px" >
 
-## Instalacion
-
-    Shell (Mac, Linux):
-    curl -fsSL https://deno.land/x/install/install.sh | sh
-
-    PowerShell (Windows):
-    iwr https://deno.land/x/install/install.ps1 -useb | iex
-    Homebrew (Mac):
-
-    brew install deno
-    Chocolatey (Windows):
-
-    choco install deno
-    Scoop (Windows):
-
-    scoop install deno
-    Build and install from source using Cargo
-
-    cargo install deno
-    See deno_install for more installation options.
-
-
-## Configurar el bash ( Debian )
-
-    - Por consola abrir el archivo .bashrc
-    
-    $ sudo vim .bashrc
-
-    - Agregar estas 2 lineas de texto
-
-    export DENO_INSTALL="/home/andres/.deno"
-    export PATH="$DENO_INSTALL/bin:$PATH"
-
-    - Reiniciar o Cerrar sesion
-
-    - Comprobar la version de Deno
-
-    deno --version
-
-
-
-## Ejecutar archivos JS o TS con Deno
-
-    - Ya no es necesario configurar archivos especiales en el proyecto para usar TypeScript como cuando usamos NodeJS
-
-    deno run hola-mundo.js
-
-    deno run hola-mundo.ts
-
-
-## Instalar extension Deno Visaul Studio Code - ( Deno - Deno support for VSCode )
-
-    Visual Studio Code Deno extension
-
-
-## Que es Deno
+### Que es Deno
 
     - Deno Es un runtime(sistema de tiempo de ejecución) para Javascript y TypeScript está basado en el motor de Javascript V8 y en el lenguaje de programación Rust. Creado por Ryan Dahl, creador original de Node.js, y está centrado en la seguridad y productividad.4​ Fue anunciado por Dahl en 2018 durante su charla "10 Cosas de las que me arrepiento sobre Node.js".5​ Deno Explícitamente toma la función de ambos runtime y Manejador de paquete dentro de un solo ejecutable, en vez que requerir un programa de administración de paquetes separado.6​7​
 
-## Historia 
+### Historia 
 
     - Historia
     Deno fue anunciado en JSConf UE 2018 por Ryan Dahl en su charla "10 Cosas que me remuerden Sobre Node.js".5​ En su charla, Ryan mencionó sus remordimientos sobre las decisiones de diseño iniciales con Node.js, centrando en su escogencia de no utilizar Promesas en el diseño de API, uso del sistema de construccion anticuado GYP, nodo_modules y package.json
@@ -83,7 +39,7 @@
 
     El Deno 1.0 oficial fue liberado el 13 de mayo de 2020.15​
 
-## Vision general
+### Vision general
 
     - Visión general
     Deno busca ser un entorno de scripting productivo y seguro para el programador moderno.6​ Similar a Node.js, Deno enfatiza en arquitectura manejada por eventos, proveyendo un conjunto de utilidades de entrada salida IO no bloqueantes además de sus versiones bloqueantes. Deno puede ser usado para crear servidores web, llevar a cabo computacion científica, etc.
@@ -104,7 +60,7 @@
     Utiliza canales para el paso de mensajes para invocar APIs del sistema con privilegio y utilizar ligaduras.
 
 
-## Ejemplos 
+### Ejemplos 
 
     - Ejemplo
     La siguiente ejecuta un script básico de Deno sin ningún perimso de lectura/escritura/red (sandbox modo):
@@ -160,15 +116,78 @@
 
 
 
-## Caracteristicas nuevas de Deno frente a Nodejs
+### Caracteristicas nuevas de Deno frente a Nodejs
 
-### WebAssembly Binaries Supported
+    WebAssembly Binaries Supported
 
     - Soporte para binarios de WeAssembly ( En trabajo )
 
-### Deno no tiene package Json incluido
+    Deno no tiene package Json incluido
 
     - Hay que incluir la importacion del JSON en el momento
+
+
+<br>
+
+### Instalacion
+
+    Shell (Mac, Linux):
+    curl -fsSL https://deno.land/x/install/install.sh | sh
+
+    PowerShell (Windows):
+    iwr https://deno.land/x/install/install.ps1 -useb | iex
+    Homebrew (Mac):
+
+    brew install deno
+    Chocolatey (Windows):
+
+    choco install deno
+    Scoop (Windows):
+
+    scoop install deno
+    Build and install from source using Cargo
+
+    cargo install deno
+    See deno_install for more installation options.
+
+
+<br>
+
+### Configurar el bash ( Debian )
+
+    - Por consola abrir el archivo .bashrc
+    
+    $ sudo vim .bashrc
+
+    - Agregar estas 2 lineas de texto
+
+    export DENO_INSTALL="/home/andres/.deno"
+    export PATH="$DENO_INSTALL/bin:$PATH"
+
+    - Reiniciar o Cerrar sesion
+
+    - Comprobar la version de Deno
+
+    deno --version
+
+
+<br>
+
+### Ejecutar archivos JS o TS con Deno
+
+    - Ya no es necesario configurar archivos especiales en el proyecto para usar TypeScript como cuando usamos NodeJS
+
+    deno run hola-mundo.js
+
+    deno run hola-mundo.ts
+
+
+### Instalar extension Deno Visaul Studio Code - ( Deno - Deno support for VSCode )
+
+    Visual Studio Code Deno extension
+
+
+
     
 
 
