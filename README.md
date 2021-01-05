@@ -12,8 +12,9 @@
 
 ### TABLA DE CONTENIDO
 
-- [Que es Deno](#Que-es-Deno)
 - [Instalacion](#Instalacion)
+- [Que es Deno](#Que-es-Deno)
+
 
 
 <br><br>
@@ -21,6 +22,52 @@
 
 
 <img src='readme/img/deno-logo.png' width="60px" >
+
+<br>
+
+### Instalacion
+
+    Shell (Mac, Linux):
+    curl -fsSL https://deno.land/x/install/install.sh | sh
+
+    PowerShell (Windows):
+    iwr https://deno.land/x/install/install.ps1 -useb | iex
+    Homebrew (Mac):
+
+    brew install deno
+    Chocolatey (Windows):
+
+    choco install deno
+    Scoop (Windows):
+
+    scoop install deno
+    Build and install from source using Cargo
+
+    cargo install deno
+    See deno_install for more installation options.
+
+
+<br>
+
+### Configurar el bash ( Debian )
+
+    - Por consola abrir el archivo .bashrc
+    
+    $ sudo vim .bashrc
+
+    - Agregar estas 2 lineas de texto
+
+    export DENO_INSTALL="/home/andres/.deno"
+    export PATH="$DENO_INSTALL/bin:$PATH"
+
+    - Reiniciar o Cerrar sesion
+
+    - Comprobar la version de Deno
+
+    deno --version
+
+
+<br>
 
 ### Que es Deno
 
@@ -129,49 +176,6 @@
 
 <br>
 
-### Instalacion
-
-    Shell (Mac, Linux):
-    curl -fsSL https://deno.land/x/install/install.sh | sh
-
-    PowerShell (Windows):
-    iwr https://deno.land/x/install/install.ps1 -useb | iex
-    Homebrew (Mac):
-
-    brew install deno
-    Chocolatey (Windows):
-
-    choco install deno
-    Scoop (Windows):
-
-    scoop install deno
-    Build and install from source using Cargo
-
-    cargo install deno
-    See deno_install for more installation options.
-
-
-<br>
-
-### Configurar el bash ( Debian )
-
-    - Por consola abrir el archivo .bashrc
-    
-    $ sudo vim .bashrc
-
-    - Agregar estas 2 lineas de texto
-
-    export DENO_INSTALL="/home/andres/.deno"
-    export PATH="$DENO_INSTALL/bin:$PATH"
-
-    - Reiniciar o Cerrar sesion
-
-    - Comprobar la version de Deno
-
-    deno --version
-
-
-<br>
 
 ### Ejecutar archivos JS o TS con Deno
 
