@@ -57,8 +57,10 @@
 
     - Agregar estas 2 lineas de texto
 
-    export DENO_INSTALL="/home/andres/.deno"
-    export PATH="$DENO_INSTALL/bin:$PATH"
+    Manually add the directory to your $HOME/.bash_profile (or similar)
+        export DENO_INSTALL="/home/andres/.deno"
+        export PATH="$DENO_INSTALL/bin:$PATH"
+
 
     - Reiniciar o Cerrar sesion
 
